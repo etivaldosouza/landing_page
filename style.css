@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --font-padrao: arial,verdana,helvetica,sans-serif;
+    --font-destaque: "Roboto", sans-serif;
+
+    --cortexto:#333;
+
+    --cor01:#4a90e2;
+    --cor02:#7a7a7a;
+    --cor03:#f4f4f4;
+    --cor04:#333333;
+    --cor05:#e67e22;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--cortexto);
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+
+    font-family: var(--font-destaque);
+    background-color:var(--cor01);
+    text-align: center;
+    padding: 5px;
+    color: white;
+    margin: 0 auto;
+}   
+h1 {
+    font-size: 2.5em;
+
+}
+
+nav {  
+    background-color:var(--cor01);
+    
+}
+
+.container{
+    display: flex;
+   
+}
+
+
+#maior:hover{
+    background-color:white;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 255, 0.164);
+    border-width: 2px;
+    text-decoration: underline;
+    
+}
+
+
+.instagran {
+    margin: 10px;
+    font-weight: bolder;
+    
+}
+
+.instagran > i{
+    color:brown;
+    font-weight: bolder;
+}
+
+.instagran > a{
+    text-decoration: none;
+}
+.zap {
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.zap > i{
+
+    color:rgb(127, 253, 0);
+}
+
+.zap > a{
+    text-decoration: none;
+}
+
+
+
+.cta {
+    background-color: var(--cor02);
+    background-image:linear-gradient(to bottom,var(--cor2),var(--cor4));
+    color: white;
+    text-align: center;
+      
+}
+
+   
+ h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+ }
+
+ .bloco {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    justify-content: space-around;
+    
+    
+ }
+
+ .h3 {
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    padding-left:20px auto;
+ }
+ 
+ .d1 {
+    
+    padding: 30px;
+    text-align: center;
+ }
+
+ .d1 > a{
+    font-weight: bolder;
+    font-size: 1.5em;
+ }
+ 
+ .d1 > p {
+    padding-left: 30px;
+ }
+
+ aside {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 500px;
+ }
+
+ footer{
+    height: 30px;
+    background-color: var(--cor01);
+    color: white;
+    text-align: center;
+    
+    
+
+ }
+
+ footer > a{
+    font-weight:bolder;
+ }
+ 
